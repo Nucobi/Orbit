@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d316aa5a3d4eb4d8a717ab454fb10b, type: 3}
+  m_Name: TestData
+  m_EditorClassIdentifier: 
+  objects:
+  - prefab: {fileID: 5170613657981571586, guid: 85af2a5e99842394e8d2afdf56ca1f62, type: 3}
+    startPosition: {x: 30, y: 10, z: 0}
+    endPosition: {x: -30, y: -10, z: 0}
+    rotation: 10
+    delay: 0
+    speedAmplifier: 1
+  - prefab: {fileID: 5170613657981571586, guid: 0abf8101ca0252049be6fca19b360baf, type: 3}
+    startPosition: {x: 40, y: 10, z: 0}
+    endPosition: {x: -20, y: -10, z: 0}
+    rotation: 50
+    delay: 0.2
+    speedAmplifier: 1
+  - prefab: {fileID: 5170613657981571586, guid: 85af2a5e99842394e8d2afdf56ca1f62, type: 3}
+    startPosition: {x: -10, y: 20, z: 0}
+    endPosition: {x: 10, y: -30, z: 0}
+    rotation: 40
+    delay: 0.7
+    speedAmplifier: 1
+  - prefab: {fileID: 5170613657981571586, guid: 85af2a5e99842394e8d2afdf56ca1f62, type: 3}
+    startPosition: {x: -30, y: 20, z: 0}
+    endPosition: {x: 30, y: -30, z: 0}
+    rotation: 40
+    delay: 0.5
+    speedAmplifier: 1
+  - prefab: {fileID: 5170613657981571586, guid: 0abf8101ca0252049be6fca19b360baf, type: 3}
+    startPosition: {x: 25, y: -40, z: 0}
+    endPosition: {x: 10, y: 40, z: 0}
+    rotation: 110
+    delay: 0
+    speedAmplifier: 1
+  - prefab: {fileID: 5170613657981571586, guid: 58ba63ad61e863e45a6b5832b5cb50cf, type: 3}
+    startPosition: {x: 40, y: -40, z: 0}
+    endPosition: {x: -30, y: 30, z: 0}
+    rotation: 0
+    delay: 1
+    speedAmplifier: 1
+  - prefab: {fileID: 5170613657981571586, guid: 85af2a5e99842394e8d2afdf56ca1f62, type: 3}
+    startPosition: {x: 20, y: -40, z: 0}
+    endPosition: {x: -30, y: 10, z: 0}
+    rotation: 0
+    delay: 1
+    speedAmplifier: 1
+  - prefab: {fileID: 5170613657981571586, guid: 85af2a5e99842394e8d2afdf56ca1f62, type: 3}
+    startPosition: {x: 30, y: -40, z: 0}
+    endPosition: {x: -30, y: 10, z: 0}
+    rotation: 0
+    delay: 2
+    speedAmplifier: 1
+  - prefab: {fileID: 5170613657981571586, guid: 85af2a5e99842394e8d2afdf56ca1f62, type: 3}
+    startPosition: {x: 30, y: -30, z: 0}
+    endPosition: {x: 20, y: 40, z: 0}
+    rotation: 0
+    delay: 1
+    speedAmplifier: 1
+  - prefab: {fileID: 5170613657981571586, guid: 85af2a5e99842394e8d2afdf56ca1f62, type: 3}
+    startPosition: {x: 40, y: -40, z: 0}
+    endPosition: {x: -30, y: 30, z: 0}
+    rotation: 0
+    delay: 1
+    speedAmplifier: 1
+  - prefab: {fileID: 8652519940457010052, guid: 5e86d9ac5796519468676759038387af, type: 3}
+    startPosition: {x: 0, y: 0, z: 0}
+    endPosition: {x: 0, y: 0, z: 0}
+    rotation: 0
+    delay: 5
+    speedAmplifier: 1
+  globalspeed: 20
+  globalDelay: 3
+  nextLevel: {fileID: 11400000}
